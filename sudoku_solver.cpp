@@ -29,7 +29,7 @@ bool isSafe(int grid[N][N], int row,
   for (int x = 0; x <= 8; x++)
     if (grid[row][x] == num)
       return false;
-
+//this is for fun
   // Check if we find the same num in
   // the similar column , we
   // return false
